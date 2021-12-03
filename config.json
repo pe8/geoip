@@ -95,6 +95,14 @@
       }
     },
     {
+      "type": "maxmindMMDB",
+      "action": "output",
+      "args": {
+        "outputName": "Country-only-cn.mmdb",
+        "wantedList": ["cn"]
+      }
+    },
+    {
       "type": "text",
       "action": "output"
     }
